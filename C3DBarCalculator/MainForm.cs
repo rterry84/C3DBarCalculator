@@ -209,5 +209,10 @@ namespace C3DBarCalculator
             return sValue;
         }
         #endregion
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
